@@ -19,14 +19,14 @@ function Main() {
     if (width >= 426) {
         return (
             <div className='main'>
-                <video src={VideoOnDesktop} autoPlay loop muted />
+                <video src={VideoOnDesktop} autoPlay loop muted/>
                 <Countdown />
             </div>
         );
     } else {
         return (
             <div className='main'>
-                <video src={VideoOnMobile} autoPlay loop muted />
+                <video src={VideoOnMobile} autoPlay loop muted/>
                 <Countdown />
             </div>
         );
