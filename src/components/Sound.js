@@ -14,13 +14,14 @@ function Sound({props}) {
     if (refresh) {
         return (
             <div className='sound-icon-container'>
-                <i onClick={handleClick} className="fa-solid fa-volume-high sound-icons" ></i>
+                <i onClick={handleClick} className="fa-solid fa-volume-xmark sound-icons"></i>
             </div>
         )
     } else {
         return (
             <div className='sound-icon-container'>
-                <i onClick={handleClick} className="fa-solid fa-volume-xmark sound-icons"></i>
+                <i onClick={handleClick} className="fa-solid fa-volume-high sound-icons" ></i>
+
             </div>
         );
     }
